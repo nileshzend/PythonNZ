@@ -12,11 +12,16 @@ total = number_one + number_two
 print("total is " + str(total))
 # total = "4" "4" = 8
 
-# str   
+# str   (string function)
 # 4 ---> "4"  it covert int to string
 
-# int
+# int (integer function)
 # "4" ---> 4     it convert string to int function
 
-# float
+# float  (floting function)
 # "4"  ---> 4.0
+
+number1 = str(4)
+number2 = float("44")
+number3 = int("33")
+print(number2 + number3)  #  we can add float and int but gives result in float
